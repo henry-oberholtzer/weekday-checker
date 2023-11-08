@@ -1,6 +1,6 @@
 export default class DayOfWeek {
     constructor(year, month, day) {
-        this.GMTobject = new Date(year, month, day);
+        this.GMTobject = new Date(year, month - 1, day);
         this.dateString = this.GMTobject.toDateString();
         this.daysOfTheWeek = {
             0: "Sunday",
@@ -12,5 +12,9 @@ export default class DayOfWeek {
             6: "Saturday"
         };
         this.dayName = this.daysOfTheWeek[this.GMTobject.getDay()];
+    }
+
+    millisecondsSince() {
+        return Date.now() - Date.parse(this.GMTobject);
     }
 }

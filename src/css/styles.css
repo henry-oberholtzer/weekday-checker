@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+#form{
+border: black   solid 2px;
+width: 200px;
+padding: 5px;
+margin:auto;
+border-radius: 5px;
+}
+
+input {
+}
