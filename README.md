@@ -1,8 +1,8 @@
-# (Application Name)
+# Date Checker
 
 #### (Brief Description of Application)
 
-By Henry Oberholtzer
+By Henry Oberholtzer, Gabriel Tucker
 
 ## Technologies Used
 
